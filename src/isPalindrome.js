@@ -1,14 +1,23 @@
-export default function isPalindrome(givenWord) {
-  givenWord = givenWord.toLowerCase().replace(/[^0-9a-z]/gi, "");
-  let reverseWord = givenWord.split("").reverse().join("");
-  return givenWord === reverseWord;
 
-}
-console.log(isPalindrome("A man, a plan, a canal: Panama"));
+function isPalindrome(str) {
 
-/* if (givenWord === reverseWord) {
-  return true
-} else  {
-  return false
+  str = str.replace(/[^0-9a-z]/gi, "").toLowerCase();
+  let palindrome = str.split("").reverse().join("");
+    if (str === palindrome) {
+      return true;
+    } else {
+      return false;
+      }
 }
-*/
+
+/*console.log(
+
+  isPalindrome('radar')
+   => true
+
+  isPalindrome('bananas')
+   => false
+
+  isPalindrome('A man, a plan, a canal: Panama')
+   => true
+   isPalindrome("A man, a plan, a canal: Panama")); */

@@ -1,5 +1,4 @@
 
-
 function assembleFibonacci(nth) {
   let a = 0, b = 1, f = 1;
   let fibonacciArray = [a,b];
@@ -12,4 +11,4 @@ function assembleFibonacci(nth) {
    return fibonacciArray;
 }
 
-console.log(assembleFibonacci(10));
+//console.log(assembleFibonacci(10));
