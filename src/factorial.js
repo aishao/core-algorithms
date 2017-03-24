@@ -6,7 +6,3 @@ export default function factorialize(num) {
     }
   return factorial;
 }
-
-console.log(factorialize(5));
-
-factorialArray.reduce(function(a,b){return a*b})
