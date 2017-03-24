@@ -9,7 +9,7 @@ let changeDue = amountGiven - price
         decimal of 1.64, then Math.floor round down to the nearest integer which is
         1 (<= the given number) and assigns it to the variable numberOfCoins.
           */
-        changeDue -= coins[keys] * numberOfCoins
+        changeDue -= coins[key] * numberOfCoins
 
         coins[key] = numberOfCoins
 
