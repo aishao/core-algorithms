@@ -1,5 +1,5 @@
 
-function isPalindrome(str) {
+export default function isPalindrome(str) {
 
   str = str.replace(/[^0-9a-z]/gi, "").toLowerCase();
   let palindrome = str.split("").reverse().join("");

@@ -1,4 +1,4 @@
-let list = new Array(100);
+export default let list = new Array(100);
 
   for (let i = 0; i < 100; i++) {
       list[i] = i + 1; // $$c populates the array. +1 is necessary because arrays are 0 index based and you want to store 1 - 100 in it, NOT 0-99.{
@@ -12,4 +12,3 @@ let list = new Array(100);
                   list[i] = "Fizz"
                  }
   }
-

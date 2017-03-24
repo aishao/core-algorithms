@@ -1,4 +1,4 @@
-function assembleCollatz(num) {
+export default function assembleCollatz(num) {
   let collatzArray = [num];
 
   while ( collatzArray[collatzArray.length-1] !== 1) {
