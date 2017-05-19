@@ -1,4 +1,4 @@
-# Core Algorithms  #teamName premium-partridge  #Aisha Ortiz and Thomas Dunn
+# Core Algorithms  
 
 Tests and implementations for algorithms commonly used in job interviews. See the full list in the [algorithms.md](algorithms.md) file.
 
